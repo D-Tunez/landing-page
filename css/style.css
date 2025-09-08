@@ -108,3 +108,31 @@ section.random-info .blocks .block-text .block {
     width: 180px;
     height: 180px;
 }
+
+section.quote {
+    background-color: #e5e7eb;
+    padding: 140px 0;
+}
+
+section.quote .quote-wrapper {
+    margin: 0 auto;
+    width: 820px;
+}
+
+section.quote blockquote {
+    font-size: 36px; 
+    font-weight: 300;
+    font-style: italic;
+}
+
+section.quote .author-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+section.quote .author {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 12px;
+    margin-left: auto;
+}
