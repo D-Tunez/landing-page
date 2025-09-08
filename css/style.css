@@ -158,3 +158,10 @@ section.cta .cta-card {
     gap: 96px;
     border-radius: 24px;
 }
+
+footer {
+    background-color: #1F2937;
+    color: #fff;
+    padding: 48px 0;
+    text-align: center;
+}
