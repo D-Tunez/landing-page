@@ -12,7 +12,14 @@ body {
 
 h1 {
     font-size: 48px;
+    font-weight: 900;
     margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 48px;
 }
 
 a.button {
@@ -70,4 +77,34 @@ section.text-image .content {
 section.text-image .text,
 section.text-image img {
     flex: 1;
+}
+
+section.random-info {
+    margin: 140px 0;
+}
+
+section.random-info h2 {
+    text-align: center;
+}
+
+section.random-info .blocks {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+section.random-info .blocks .block-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 180px;
+}
+
+section.random-info .blocks .block-text .block {
+    border: 4px solid #3882f6;
+    border-radius: 24px;
+    margin-bottom: 24px;
+    width: 180px;
+    height: 180px;
 }
